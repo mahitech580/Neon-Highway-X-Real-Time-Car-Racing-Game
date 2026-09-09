@@ -1,38 +1,49 @@
-# Neon Highway
+﻿# Neon Highway X - Real-Time Car Racing Game
 
-A real-time 2D car racing game built entirely with Python and Pygame.
-
-## Stack
-- Python 3.11+
-- Pygame 2.6.1
-- Object-Oriented Programming
+A Python and Pygame real-time racing game.
 
 ## Features
-- High-refresh-rate game loop
-- Smooth delta-time movement
-- Player car
-- Five AI opponents
-- Acceleration, braking and steering
-- Nitro boost
-- Collision damage
-- Health and nitro HUD
-- Three-lap race
-- Procedural road decoration
-- Particles and impact effects
+
+- Automatic acceleration
+- F = Fast Mode
+- SPACE = Nitro
+- Booster pickups
+- AI opponents
+- AI overtaking
+- Real-time collisions
+- Health system
+- 3-minute races
+- Multiple laps
+- Start screen
 - Pause and restart
+- Particle effects
+- Neon highway environment
+
+## Controls
+
+| Key | Action |
+|---|---|
+| ENTER | Start |
+| A / D | Steer |
+| Arrow Keys | Steer |
+| F | Fast Mode |
+| SPACE | Nitro |
+| S / DOWN | Brake |
+| P | Pause |
+| R | Restart |
+| ESC | Menu |
 
 ## Run
 
-```powershell
-python -m pip install pygame
-python index.py
-```
+pip install -r requirements.txt
 
-## Controls
-- W / Up: accelerate
-- S / Down: brake
-- A / Left: steer left
-- D / Right: steer right
-- Space: nitro
-- P: pause
-- R: restart
+python index.py
+
+## Tech Stack
+
+Python
+Pygame
+Object-Oriented Programming
+Game Physics
+AI
+Event-Driven Programming
