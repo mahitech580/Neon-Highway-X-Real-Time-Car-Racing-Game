@@ -47,3 +47,6 @@ Object-Oriented Programming
 Game Physics
 AI
 Event-Driven Programming
+
+## Current Build
+Real-time 3-minute racing with F fast mode and nitro.
