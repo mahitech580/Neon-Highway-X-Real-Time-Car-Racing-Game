@@ -1,0 +1,12 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+*.log
+neon_highway_save.json
+neon_highway_settings.json
+.vscode/
+.idea/
